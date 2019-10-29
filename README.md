@@ -13,11 +13,7 @@ you can visit me on [herdanuyp.com](https://herdanuyp.com)
 
 ## Screenshots
 
-Home
 ![Home](images/pers-web-home.png)
-Story
 ![Story](images/pers-web-story.png)
-Reviews
 ![Reviews](images/pers-web-reviews.png)
-Portofolio
 ![Portofolio](images/pers-web-portofolio.png)
