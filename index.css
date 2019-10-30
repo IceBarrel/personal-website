@@ -1,3 +1,40 @@
-#center {
+/*header*/
+#headerbackground {
+  position: absolute;
+  z-index: -1;
+  height: 70px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #222222;
+}
+h1 {
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: aqua;
+  text-align: center;
+  align-content: center;
+  margin: 0px;
+  height: 70px;
+}
+h4 {
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+}
+li {
+  display: inline-flex;
+  list-style-type: none;
+  text-align: center;
+}
+.navmenu {
+  display: flex;
   justify-content: center;
+  height: 60px;
+}
+.navmenubar {
+  display: flex;
+  width: 245px;
 }
