@@ -34,14 +34,6 @@ h4 {
   margin-bottom: 2px;
 }
 
-li {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  list-style-type: none;
-  text-align: center;
-}
-
 .nav-menu {
   display: -webkit-box;
   display: -ms-flexbox;
