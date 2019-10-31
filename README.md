@@ -2,7 +2,7 @@
 
 this project is my personal website info.
 
-you can visit me on [herdanuyp.com](https://herdanuyp.com)
+you can visit me on [baim-personalweb](https://baim-personalweb.netlify.com)
 
 ## Features
 
