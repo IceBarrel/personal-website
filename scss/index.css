@@ -4,6 +4,10 @@
 }
 
 /*header*/
+html {
+  font-family: "Roboto Slab";
+}
+
 #header-background {
   position: absolute;
   z-index: -1;
@@ -27,23 +31,40 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   margin: 0%;
+  padding-left: 0%;
 }
 
-h4 {
+footer {
+  background-color: #222222;
+  padding: 1em;
   text-align: center;
-  margin-bottom: 2px;
+  font-size: 0.85em;
+  font-style: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer-credit {
+  margin: 0;
+  width: 100%;
+  color: #eae6df;
 }
 
 .nav-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   height: 60px;
   background: coral;
   margin: 0px;
+  padding-left: 0%;
 }
 
 .nav-menu a:link,
@@ -70,26 +91,32 @@ h4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
   width: 245px;
+  height: 60px;
 }
 
 h2 {
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   font-size: 72px;
-  width: 700px;
+  width: 10em;
 }
 
 #overview-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 90%;
   height: 500px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Site {
@@ -115,7 +142,7 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 960px;
+  width: 80%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -123,24 +150,7 @@ h2 {
   margin-right: auto;
   font-family: "Roboto Slab";
   color: #4a4a4a;
-}
-
-.Media {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-.Media-figure {
-  margin-right: 1em;
-}
-
-.Media-body {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  font-size: 22px;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
